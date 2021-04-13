@@ -1,0 +1,111 @@
+#body{
+      background-image: url("https://i.pinimg.com/originals/3a/25/d3/3a25d33a558629a16b66510ac3ace6c4.jpg");
+      background-size: 2000px;
+  }
+
+  #footer{
+      background-color: black;   
+      color: white;
+      font-size: 17px;
+      height: 50px;
+      display: flex;  
+ }
+  
+  #logo{
+      width: 50px;     
+  }
+  .card{
+      position: static;
+      margin-bottom: 10px;
+      padding-right: 10px;
+       margin-left:5px;
+       
+      display: block;
+      background-color: black;
+      color: white;     
+  }
+  .text{
+      font-size: 19pt;
+      font-family:fantasy;
+      font-style: italic;
+  }
+  
+  .txt-title{
+      text-align: center;
+      font-size: 38px;
+      color:white;
+     
+  }
+  #txt-botton{
+      margin:auto ;
+  }
+  .button{
+      background-color: darkslategrey;
+      color: wheat;
+      transition-delay: 0.1s;
+  }
+  button:hover,button focus{
+      background-color: red;
+  }
+                             /*Pagina de Produtos*/
+  #produts{
+  }
+  
+  #img_not{
+      width: 12rem;
+      
+  }
+    
+  
+ .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*Pagina de Cadastro do usuario*/
+
+ #CadastroUsuario{
+     
+      background-color: blue;
+      height: 400px;
+      width: 400px;
+      border-radius: 10%;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
