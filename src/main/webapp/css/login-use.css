@@ -7,13 +7,14 @@
     font-family: Helvetica;
     color: #323232;
     border: none;
+   
   }
   
   body {
     /*background-color: lime;*/
     background-size: cover;
     background-position-y: -200px;
-    background-color: #00FF7F;
+    background-image: url("https://www.doutorecommerce.com.br/wp-content/uploads/2019/01/personalidade-loja-virtual-instagram.jpg");
   }
   
   textarea:focus, input:focus{

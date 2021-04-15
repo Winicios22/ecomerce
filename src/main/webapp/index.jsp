@@ -59,26 +59,7 @@
  
       
       
-      <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Já é Administrador </h5>
-        <p class="card-text">Acesse os Produtos e Faça as devidas Alterações!!!</p>
-        <button href="#" class="button">Faça o Login</button>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">>>>>Novo Ùsuario<<<<</h5>
-        <p class="card-text">Faça seu Cadastro para obter mais Conteúdos e produtos</p>
-        <button href="cadastro_usuario.jsp" class="button">Cadastre-se</button>
-      </div>
-    </div>
-  </div>
-</div>
+      
   </section>    
         
                        <!------------------Footer----------------->      

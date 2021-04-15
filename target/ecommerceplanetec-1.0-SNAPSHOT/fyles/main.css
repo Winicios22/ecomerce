@@ -1,6 +1,6 @@
 #body{
-      background-image: url("https://i.pinimg.com/originals/3a/25/d3/3a25d33a558629a16b66510ac3ace6c4.jpg");
-      background-size: 2000px;
+      background-image: url("https://www.doutorecommerce.com.br/wp-content/uploads/2019/01/personalidade-loja-virtual-instagram.jpg");
+      background-size: 1500px;
   }
 
   #footer{
@@ -21,19 +21,19 @@
        margin-left:5px;
        
       display: block;
-      background-color: black;
+      background-color: darkslategrey;
       color: white;     
   }
   .text{
-      font-size: 19pt;
+      font-size: 20pt;
       font-family:fantasy;
       font-style: italic;
   }
   
   .txt-title{
       text-align: center;
-      font-size: 38px;
-      color:white;
+      font-size: 40px;
+      color:black;
      
   }
   #txt-botton{
@@ -48,7 +48,8 @@
       background-color: red;
   }
                              /*Pagina de Produtos*/
-  #produts{
+  #produtos{
+      background-image: url("https://www.doutorecommerce.com.br/wp-content/uploads/2019/01/personalidade-loja-virtual-instagram.jpg");
   }
   
   #img_not{
@@ -58,8 +59,8 @@
     
   
  .dropbtn {
-  background-color: #4CAF50;
-  color: white;
+  
+  color: #0000FF;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -74,26 +75,27 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #323232;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: springgreen;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #3e8e41}
+.nav-item a:hover {background-color: #3e8e41; }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn  {
   background-color: #3e8e41;
 }
 

@@ -6,7 +6,16 @@
     font-family: Helvetica, sans-serif;
     color: #323232;
     border: none;
+   
 }
+
+#body_cad_usuario{
+     background-image: url(" https://www.doutorecommerce.com.br/wp-content/uploads/2019/01/personalidade-loja-virtual-instagram.jpg");
+     background-size:2000px;
+     background-repeat: no-repeat;
+}
+
+
 
 input, label {
     display: block;

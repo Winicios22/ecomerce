@@ -16,31 +16,16 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="css/cadastro-use.css">
 </head>
-<body>
+<body id="body_cad_usuario">
     
     
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-      <img id="logo" src="img/background/carrinho_comercio_eletronoco.png">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
+    
+    <a style="font-size: 20px;" class="nav-link active" aria-current="page" href="index.jsp">Voltar Para o Inicio</a>
                
       
 
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Pesquise Aqui!!" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit" href="cadastro_usuario.jsp">Buscar</button>
-      </form>
-    </div>
-  </div>
-</nav>
+    
     
     
     <div id="main-container">
