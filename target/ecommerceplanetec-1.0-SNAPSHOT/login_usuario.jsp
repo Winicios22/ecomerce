@@ -28,7 +28,7 @@
             </form>
         <div id="register-container">
             <p>Ainda não tem uma conta?</p>
-            <a href="cadastro-use.jsp">Registre-se Agora</a>
+            <a href="cadastro-use.jsp">Registre-se Agora  </a>
         </div>
     </div>
 </body>
