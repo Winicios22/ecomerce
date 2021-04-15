@@ -79,12 +79,13 @@
 
             <div class="half-box">
                 <input type="submit" value="salvar" name="salvar" />
-                <input type="submit" id="bnt-submit" value="Registrar">
+                <input type="submit" id="bnt-submit" value="Registrar"> 
+                <input type="reset" value="Limpar"/>
             </div>
         </form>
         <div id="register-container">
             <p>Já tem conta?</p>
-            <a href="login-use.jsp">Login</a>
+            <a href="login_usuario.jsp">Login</a>
           </div>
     </div>
     <p class="error-validation template"></p>

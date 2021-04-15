@@ -60,6 +60,12 @@ public class CadastroUsuario extends HttpServlet {
             cliente.setSenha(senha);
             cliente.setComfirmarSenha(comfirmarSenha);
             
+            
+            
+            
+            
+            
+            
             if (nome != null && email != null && cpf != null && contato != null && sobrenome != null && endereco != null && numeroDaCasa != null && senha != null){
                 EntityManagerFactory factory = Persistence.createEntityManagerFactory("Ecomerce");
 		EntityManager manager = factory.createEntityManager();
@@ -84,7 +90,7 @@ public class CadastroUsuario extends HttpServlet {
                 rd.forward(request, response);
                 
             }else{
-                RequestDispatcher rd=request.getRequestDispatcher("respostaPositiva.jsp");  
+                RequestDispatcher rd=request.getRequestDispatcher("login_usuario.jsp");  
                 rd.forward(request, response);
                 
             }
