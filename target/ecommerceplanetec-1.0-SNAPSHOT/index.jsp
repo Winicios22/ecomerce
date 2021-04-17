@@ -50,7 +50,7 @@
         
   <section class="imgback">  
       <div id="card_tour"> Um Rápido Tuor sobre a nossa Empresa!!!   </div>
-      <div class="card mb-3" style="max-width:650px;">
+      <div class="card mb-3" style="max-width:900px;">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="https://images.uncyc.org/pt/thumb/7/7e/Glo.jpg/300px-Glo.jpg" alt="img">
@@ -64,34 +64,34 @@
     </div>
   </div>
 </div>
-         <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+         <div class="card text-white bg-dark mb-3" style="max-width: 25rem;position: relative;">
              <div class="card-header" style="text-align:left;" >Qual o Tema do Nosso Ecomerce!!!!</div>
   <div class="card-body">
     <h5 class="card-title">Tema: TecElectronicos</h5>
     <p class="card-text">Tenha Produtos de Otima Qualidade!</p>
   </div>
       
-           <div class="card" style="width: 18rem;">
+           <div class="card" style="width: 25rem;position: relative;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">:)</h5>
+    <p class="card-text">Garantia extendida</p>
+    <a href="#" class="btn btn-primary">Ler mais</a>
   </div>
 </div>
 
-<div class="card text-center" style="width: 18rem;">
+<div class="card text-center" style="width:25rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">!!Importante!!</h5>
+    <p class="card-text">Estados *Novos estado e usado</p>
+    <a href="#" class="btn btn-primary">Ler Mais</a>
   </div>
 </div>
 
-<div class="card text-end" style="width: 18rem;">
+<div class="card text-end" style="width: 25rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Loja</h5>
+    <p class="card-text">#Aparelhos Eletronicos </p>
+    <a href="#" class="btn btn-primary">Ler Mais</a>
   </div>
 </div>    
   </div>
