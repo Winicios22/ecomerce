@@ -12,11 +12,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-	<title>AlgaWorks</title>
+	<title>Pagina de Pesquisa de Produtos</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/vendors.min.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/algaworks.min.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css"/>
+	<link rel="stylesheet" type="text/css" href="css/Vendedor.css"/>
+        <link rel="stylesheet" type="text/css" href="css/cadastro-produtos.css"/>
+        <link rel="stylesheet" type="text/css" href="css/Aplicacao.css"/>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -119,19 +119,9 @@
         </li>
 
         <li class="aw-menu__item  is-expanded">
-          <a href="#">
-            <i class="fa  fa-fw  fa-file-text"></i><span>Páginas comuns</span>
-            <i class="aw-menu__navigation-icon  fa"></i>
-          </a>
+         
 
-          <ul class="aw-menu__list  aw-menu__list--sublist">
-            <li class="aw-menu__item  aw-menu__item--link"><a href="pagina-vazia.html">Página vazia</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="login.html">Login</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="esqueceu-a-senha.html">Esqueceu a senha</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="403.html">403</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="404.html">404</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="500.html">500</a></li>
-          </ul>
+          
         </li>
 
       </ul>

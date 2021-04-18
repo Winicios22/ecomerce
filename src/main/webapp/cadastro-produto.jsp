@@ -102,35 +102,33 @@
       <ul class="aw-menu__list">
 
         <li class="aw-menu__item">
-          <a href="dashboard.html"><i class="fa  fa-fw  fa-home"></i><span>Dashboard</span></a>
+         
         </li>
 
         <li class="aw-menu__item  is-active">
           <a href="#">
-            <i class="fa  fa-fw  fa-file-text"></i><span>Cadastros</span>
+            <i class="fa  fa-fw  fa-file-text"></i><span>Tela para Cadastros de Produtos</span>
             <i class="aw-menu__navigation-icon  fa"></i>
           </a>
       
           <ul class="aw-menu__list  aw-menu__list--sublist">
-            <li class="aw-menu__item  aw-menu__item--link"><a href="cadastro-produto.html">Cadastro de produto</a></li>
-            <li class="aw-menu__item  aw-menu__item--link  is-active"><a href="pesquisa-produtos.html">Pesquisa de produtos</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="tabela-sem-dados.html">Tabela sem dados</a></li>
+            <li class="aw-menu__item  aw-menu__item--link"><a href="cadastro-produto.jsp">Cadastro de produto</a></li>
+            <li class="aw-menu__item  aw-menu__item--link  is-active"><a href="">Pesquisa de produtos</a></li>
+            <li class="aw-menu__item  aw-menu__item--link"><a href="">Tabela sem dados</a></li>
           </ul>
         </li>
 
         <li class="aw-menu__item  is-expanded">
-          <a href="#">
-            <i class="fa  fa-fw  fa-file-text"></i><span>Páginas comuns</span>
+            <a href="Pesquisa-produtos.jsp">
+            <i class="fa  fa-fw  fa-file-text"></i><span>Pesquisar Produtos Cadastradod</span>
             <i class="aw-menu__navigation-icon  fa"></i>
           </a>
 
           <ul class="aw-menu__list  aw-menu__list--sublist">
-            <li class="aw-menu__item  aw-menu__item--link"><a href="pagina-vazia.html">Página vazia</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="login.html">Login</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="esqueceu-a-senha.html">Esqueceu a senha</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="403.html">403</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="404.html">404</a></li>
-            <li class="aw-menu__item  aw-menu__item--link"><a href="500.html">500</a></li>
+          
+            
+            <li class="aw-menu__item  aw-menu__item--link"><a href="">Esqueceu a senha</a></li>
+   
           </ul>
         </li>
 

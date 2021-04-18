@@ -15,7 +15,7 @@
     </head>
     <body id="body">  
         <!------Nav Bar-------->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; width: 1700px;height: 29px; ">
   <div class="container-fluid">
       <img id="logo" src="img/background/carrinho_comercio_eletronoco.png">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,12 +45,12 @@
     </div>
   </div>
 </nav>
-         
+       
                                         <!------------Section----------------------->      
-        
+                                        <br> 
   <section class="imgback">  
       <div id="card_tour"> Um Rápido Tuor sobre a nossa Empresa!!!   </div>
-      <div class="card mb-3" style="max-width:650px;">
+      <div class="card mb-3" style="max-width:2000px;">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="https://images.uncyc.org/pt/thumb/7/7e/Glo.jpg/300px-Glo.jpg" alt="img">
@@ -64,7 +64,7 @@
     </div>
   </div>
 </div>
-         <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+         <div class="card text-white bg-dark mb-3" style="max-width: 30rem; float: contour;">
              <div class="card-header" style="text-align:left;" >Qual o Tema do Nosso Ecomerce!!!!</div>
   <div class="card-body">
     <h5 class="card-title">Tema: TecElectronicos</h5>
@@ -73,31 +73,31 @@
       
            <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <h5 class="card-title">Noticias </h5>
+    <p class="card-text">---------------------------------------------------</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
 
 <div class="card text-center" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <h5 class="card-title">Noticias </h5>
+    <p class="card-text">-------------------------------------------------</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
 
 <div class="card text-end" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <h5 class="card-title">Noticias </h5>
+    <p class="card-text">--------------------------------------------------</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>    
   </div>
          
                                        <!------------------Footer----------------->      
-<footer id="footer">
+                                       <footer id="footer" style="float: end;">
     <div id="txt-botton">
     © 2021 Copyright:
          
