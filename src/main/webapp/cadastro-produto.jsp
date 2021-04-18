@@ -113,14 +113,14 @@
       
           <ul class="aw-menu__list  aw-menu__list--sublist">
             <li class="aw-menu__item  aw-menu__item--link"><a href="cadastro-produto.html">Cadastro de produto</a></li>
-            <li class="aw-menu__item  aw-menu__item--link  is-active"><a href="Pesquisa-produtos.jsp">Pesquisar de produtos</a></li>
+            <li class="aw-menu__item  aw-menu__item--link  is-active"><a href="pesquisa-produtos.html">Pesquisa de produtos</a></li>
             <li class="aw-menu__item  aw-menu__item--link"><a href="tabela-sem-dados.html">Tabela sem dados</a></li>
           </ul>
         </li>
 
         <li class="aw-menu__item  is-expanded">
-            <a href="Pesquisa-produtos.jsp">
-            <i class="fa  fa-fw  fa-file-text" ></i><span>Pesquisar produtos cadastrados</span>
+          <a href="#">
+            <i class="fa  fa-fw  fa-file-text"></i><span>Páginas comuns</span>
             <i class="aw-menu__navigation-icon  fa"></i>
           </a>
 
@@ -200,7 +200,7 @@
 		</div>
 		
 		<div class="form-group">
-                    <button class="" >Salvar</button>
+			<button class="btn  btn-primary" type="submit">Salvar</button>
 			<a href="pesquisa-produtos.html" class="btn  btn-default">Cancelar</a>
 			<a href="#" class="btn  btn-link  aw-btn-link-danger" onclick="excluir()">Excluir este produto</a>
 		</div>
