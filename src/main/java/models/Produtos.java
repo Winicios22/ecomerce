@@ -22,6 +22,69 @@ public class Produtos implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    
+    private String nomeProduto;
+    private String marcaModelo;
+    private String anoFabric;
+    private String estadoProduto;
+    private float precoUnit;
+    private int quantProduhttps;
+    
+    
+  public void CadProdutos(){
+     
+  }
+
+    public String getNomeProduto() {
+        return nomeProduto;
+    }
+
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
+    }
+
+    public String getMarcaModelo() {
+        return marcaModelo;
+    }
+
+    public void setMarcaModelo(String marcaModelo) {
+        this.marcaModelo = marcaModelo;
+    }
+
+    public String getAnoFabric() {
+        return anoFabric;
+    }
+
+    public void setAnoFabric(String anoFabric) {
+        this.anoFabric = anoFabric;
+    }
+
+    public String getEstadoProduto() {
+        return estadoProduto;
+    }
+
+    public void setEstadoProduto(String estadoProduto) {
+        this.estadoProduto = estadoProduto;
+    }
+
+    public float getPrecoUnit() {
+        return precoUnit;
+    }
+
+    public void setPrecoUnit(float precoUnit) {
+        this.precoUnit = precoUnit;
+    }
+
+    public int getQuantProduhttps() {
+        return quantProduhttps;
+    }
+
+    public void setQuantProduhttps(int quantProduhttps) {
+        this.quantProduhttps = quantProduhttps;
+    }
+    
+    
+    
 
     public Long getId() {
         return id;
