@@ -12,6 +12,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import models.Produtos;
 
 /**
  *
@@ -34,6 +35,19 @@ public class CadProdutos extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        String nomeProduto = request.getParameter("");
+        String modeloProduto = request.getParameter("");
+        String fabricProduto = request.getParameter("");
+        int stoqueProduto = Integer.parseInt(request.getParameter("nomeProduto"));
+        
+        
+        
+        
+        Produtos produto = new Produtos();
+         
+        produto.getNomeProduto();
+        
         
     }
 
