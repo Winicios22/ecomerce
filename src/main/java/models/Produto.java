@@ -22,6 +22,60 @@ public class Produto implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String nomeProduto;
+    private boolean status;
+    private float preco;
+    private int quantidadeEstoque;
+    private String marcaModelo;
+    private String categoria;
+
+    public String getNomeProduto() {
+        return nomeProduto;
+    }
+
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    public float getPreco() {
+        return preco;
+    }
+
+    public void setPreco(float preco) {
+        this.preco = preco;
+    }
+
+    public int getQuantidadeEstoque() {
+        return quantidadeEstoque;
+    }
+
+    public void setQuantidadeEstoque(int quantidadeEstoque) {
+        this.quantidadeEstoque = quantidadeEstoque;
+    }
+
+    public String getMarcaModelo() {
+        return marcaModelo;
+    }
+
+    public void setMarcaModelo(String marcaModelo) {
+        this.marcaModelo = marcaModelo;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
 
     public Long getId() {
         return id;
