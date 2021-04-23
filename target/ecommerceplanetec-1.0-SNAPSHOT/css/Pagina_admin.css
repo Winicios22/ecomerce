@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/04/2021, 01:38:40
+    Author     : Ailton_Oliver
+*/
+
+body{
+    
+    background-color: blue;
+    
+    
+}
+
+
+#painelMenuAdmin{
+    width: 100px;
+    height: 700px;
+    background-color: black;
+    text-align: center;
+   
+}
+
+#painelUsuarioAdmin{
+    
+    
+    width: auto;
+    height: 100px;
+    background-color: black;
+    text-align: center;   
+    
+}
+
+#opcaonMenu{
+ color: White;   
+    
+}
+
+#adminUser{
+ border-radius: 20%;
+
+}
+
+#cadUsuarioAdmin{
+    background-color: white;
+    width: 100px;
+    height: 100px; 
+    margin-left: auto;
+    margin-right: 100px;
+    border-radius: 10%;
+}
+
+#nomeCadastro{
+ color: white;   
+ 
+}
+
+#ConteinerCadastroProduto{
+    background-color: white;
+     width: 400px;
+     height: 400px;
+     margin-left:auto;
+     margin-right:auto;
+     border-radius: 10%;
+     text-align: center;
+     align-items: center;
+}
+
