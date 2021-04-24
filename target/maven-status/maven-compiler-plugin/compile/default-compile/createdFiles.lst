@@ -1,7 +1,8 @@
+models\Produto_.class
 models\Usuario_.class
+models\Produto.class
 servlets\CriaTabelas.class
-models\Produtos.class
-models\Produtos_.class
+servlets\Login.class
 models\Usuario.class
-servlets\CadProdutos.class
 servlets\CadastroUsuario.class
+servlets\CadPoduto.class

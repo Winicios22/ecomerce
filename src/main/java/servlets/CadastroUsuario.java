@@ -33,7 +33,6 @@ public class CadastroUsuario extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        EntityManager em = null ;
         int conf = 0;
         
         
@@ -66,7 +65,7 @@ public class CadastroUsuario extends HttpServlet {
             
             
             if (nome != null && email != null && cpf != null && contato != null && sobrenome != null && endereco != null && numeroDaCasa != null && senha != null){
-                EntityManagerFactory factory = Persistence.createEntityManagerFactory("Ecomerce");
+                EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
 		EntityManager manager = factory.createEntityManager();
                 
                 manager.getTransaction().begin();								
@@ -75,7 +74,7 @@ public class CadastroUsuario extends HttpServlet {
                 
             } 
         }catch(NullPointerException e){
-            EntityManagerFactory factory = Persistence.createEntityManagerFactory("Ecomerce");
+            EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
             EntityManager manager = factory.createEntityManager();
             
             if(manager.getTransaction().isActive())

@@ -37,24 +37,24 @@
             <%--Formulario Dadastro--%>
             <div id="ConteinerCadastroProduto">  
                 <h1>Cadastro de produtos</h1>
-              <form action="CadProduto" method="POST">
+              <form action="CadPoduto" method="POST">
                   <label>Nome do Produro</label>
                   <input type="text" name="NomeDoProduto" value="" />
                   <br>
-                   <label>Status</label>
-                  <input type="text" name="NomeDoProduto" value="" />
+                  <label>Status</label>
+                  <input type="text" name="status" value="" />
                   <br>
                    <label>Preço</label>
-                  <input type="text" name="NomeDoProduto" value="" />
+                  <input type="text" name="perco" value="" />
                   <br>
                    <label>Estoque</label>
-                  <input type="text" name="NomeDoProduto" value="" />
+                  <input type="text" name="estoque" value="" />
                   <br>
                    <label>Marca ou Modelo</label>
-                  <input type="text" name="NomeDoProduto" value="" />
+                  <input type="text" name="marca" value="" />
                   <br>
                   <label>Categoria</label>
-                  <input type="text" name="NomeDoProduto" value="" />
+                  <input type="text" name="categoria" value="" />
                   <br>
                   <input type="submit" value="Registar" />
               </form>

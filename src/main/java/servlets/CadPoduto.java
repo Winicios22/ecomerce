@@ -34,12 +34,12 @@ public class CadPoduto extends HttpServlet {
        
         try{
        
-         String nome = request.getParameter("");
-         String status = request.getParameter("");
-         String preco = request.getParameter("");
-         String quantidade = request.getParameter("");
-         String marca = request.getParameter("");
-         String categoria = request.getParameter("");
+         String nome = request.getParameter("NomeDoProduto");
+         //String status = request.getParameter("status");
+         String preco = request.getParameter("perco");
+         String quantidade = request.getParameter("estoque");
+         String marca = request.getParameter("marca");
+         String categoria = request.getParameter("categoria");
          
          Produto novoProduto = new Produto();
          novoProduto.setNomeProduto(nome);
@@ -48,13 +48,13 @@ public class CadPoduto extends HttpServlet {
          novoProduto.setMarcaModelo(marca);
          novoProduto.setCategoria(categoria);
          
-         if(status == "True"){
+        /* if(status == "True"){
              novoProduto.setStatus(true);
          }else
              novoProduto.setStatus(false);
-         
-         if (nome != null && preco != null && quantidade != null && marca != null && categoria != null && status != null){
-                EntityManagerFactory factory = Persistence.createEntityManagerFactory("Ecomerce");
+         */
+         if (nome != null && preco != null && quantidade != null && marca != null && categoria != null){
+                EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
 		EntityManager manager = factory.createEntityManager();
                 
                 manager.getTransaction().begin();								
@@ -64,7 +64,7 @@ public class CadPoduto extends HttpServlet {
             } 
          
         }catch(NullPointerException e){
-            EntityManagerFactory factory = Persistence.createEntityManagerFactory("Ecomerce");
+            EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
             EntityManager manager = factory.createEntityManager();
             
             if(manager.getTransaction().isActive())
@@ -75,11 +75,11 @@ public class CadPoduto extends HttpServlet {
         }finally{
         
             if(conf != 0){
-                RequestDispatcher rd=request.getRequestDispatcher("");  
+                RequestDispatcher rd=request.getRequestDispatcher("respostaNegativa.jsp");  
                 rd.forward(request, response);
             
             }else{
-                RequestDispatcher rd=request.getRequestDispatcher("");  
+                RequestDispatcher rd=request.getRequestDispatcher("produtos.jsp");  
                 rd.forward(request, response);
   
             }
