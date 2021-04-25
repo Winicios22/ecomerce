@@ -5,66 +5,37 @@ and open the template in the editor.
 */
 /* 
     Created on : 23/04/2021, 01:38:40
-    Author     : Ailton_Oliver
+    Author     : Ailton_Oliver and Rhassan
 */
 
-body{
-    
-    background-color: blue;
-    
-    
+body{ 
+      background-image: url("https://www.doutorecommerce.com.br/wp-content/uploads/2019/01/personalidade-loja-virtual-instagram.jpg");;/*<<Color is opcional ok*/   
 }
-
-
-#painelMenuAdmin{
-    width: 100px;
-    height: 700px;
-    background-color: black;
-    text-align: center;
-   
+.txt{
+     display: block;font-size: 20px;font-style:inherit;font-family: sans-serif;margin-bottom: 20px;background-color: #bdbdbd;color: #08558B;border-style: groove;
 }
-
-#painelUsuarioAdmin{
-    
-    
-    width: auto;
-    height: 100px;
-    background-color: black;
-    text-align: center;   
-    
-}
-
-#opcaonMenu{
- color: White;   
-    
-}
-
-#adminUser{
- border-radius: 20%;
-
-}
-
-#cadUsuarioAdmin{
-    background-color: white;
-    width: 100px;
-    height: 100px; 
-    margin-left: auto;
-    margin-right: 100px;
-    border-radius: 10%;
-}
-
-#nomeCadastro{
- color: white;   
  
+#button-register{
+   font-size: 21px;font-style: oblique;background-color: #080808;color: #bdbdbd;
+}
+#button-register:hover,button-register focus{
+   background-color: #00FF7F;
+       color: red; 
+} 
+
+
+.textfield{
+    margin-bottom: 9px;
 }
 
 #ConteinerCadastroProduto{
     background-color: white;
      width: 400px;
-     height: 400px;
+     height: 600px;
      margin-left:auto;
      margin-right:auto;
      border-radius: 10%;
+     box-shadow: 17%;
      text-align: center;
      align-items: center;
 }
