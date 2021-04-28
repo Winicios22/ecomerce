@@ -73,25 +73,25 @@
       
            <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Noticias </h5>
-    <p class="card-text">---------------------------------------------------</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Qual é a marca do seu celular?</h5>
+    <p class="card-text">O TecMundo quer conhecer melhor os seus leitores e a pergunta da vez é: qual é o seu smartphone atual?</p>
+    <a href="https://www.tecmundo.com.br/dispositivos-moveis/216246-smartphone-voce-usando-atualmente-enquete.htm" class="btn btn-primary">Ir para notícia</a>
   </div>
 </div>
 
 <div class="card text-center" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Noticias </h5>
-    <p class="card-text">-------------------------------------------------</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title"> Chip ‘M2’ da Apple deve entrar em produção no segundo semestre, indica rumor </h5>
+    <p class="card-text">A próxima geração do processador desenvolvido pela Apple, apelidado como ‘M2’, pode ter iniciado o seu ciclo de produção neste mês</p>
+    <a href="https://olhardigital.com.br/2021/04/27/reviews/chip-apple-m2-para-macs-data-producao/" class="btn btn-primary">ir para notícia</a>
   </div>
 </div>
 
 <div class="card text-end" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Noticias </h5>
-    <p class="card-text">--------------------------------------------------</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Setor de TI é o que mais cresce em demanda por profissionais durante a pandemia </h5>
+    <p class="card-text">As grandes, médias, pequenas e microempresas vivem atualmente uma nova realidade diante da pandemia da Covid-19. Com o isolamento social e as outras orientações da Organização Mundial da Saúde (OMS), milhões de colaboradores tiveram que trabalhar de suas próprias residências. </p>
+    <a href="https://www.diariodepernambuco.com.br/noticia/economia/2020/10/setor-de-ti-e-o-que-mais-cresce-em-demanda-por-profissionais-durante-a.html" class="btn btn-primary">Ir para notícia</a>
   </div>
 </div>    
   </div>
