@@ -33,8 +33,11 @@ public class CadastroUsuario extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        int conf = 0;
         
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
+	EntityManager manager = factory.createEntityManager();
+        
+        int conf = 0;
         
         try {
             String nome = request.getParameter("nome_usuario");
@@ -58,15 +61,7 @@ public class CadastroUsuario extends HttpServlet {
             cliente.setSenha(senha);
             cliente.setComfirmarSenha(comfirmarSenha);
             
-            
-            
-            
-            
-            
-            
             if (nome != null && email != null && cpf != null && contato != null && sobrenome != null && endereco != null && numeroDaCasa != null && senha != null){
-                EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
-		EntityManager manager = factory.createEntityManager();
                 
                 manager.getTransaction().begin();								
 		manager.persist(cliente);
@@ -74,8 +69,6 @@ public class CadastroUsuario extends HttpServlet {
                 
             } 
         }catch(NullPointerException e){
-            EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
-            EntityManager manager = factory.createEntityManager();
             
             if(manager.getTransaction().isActive())
                manager.getTransaction().rollback();
@@ -91,8 +84,10 @@ public class CadastroUsuario extends HttpServlet {
                 RequestDispatcher rd=request.getRequestDispatcher("login_usuario.jsp");  
                 rd.forward(request, response);
                 
-            }
-                
-            }
+            }     
+       
+        }
+   
     }
+
 }

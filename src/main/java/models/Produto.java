@@ -23,7 +23,7 @@ public class Produto implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nomeProduto;
-  //  private boolean status;
+    private String status;
     private float preco;
     private int quantidadeEstoque;
     private String marcaModelo;
@@ -37,14 +37,14 @@ public class Produto implements Serializable {
         this.nomeProduto = nomeProduto;
     }
 
-  /*  public boolean isStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(boolean status) {
+    public void setStatus(String status) {
         this.status = status;
     }
-*/
+
     public float getPreco() {
         return preco;
     }

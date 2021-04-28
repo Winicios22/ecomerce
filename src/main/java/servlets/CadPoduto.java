@@ -32,10 +32,13 @@ public class CadPoduto extends HttpServlet {
         
         int conf = 0; 
        
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
+	EntityManager manager = factory.createEntityManager();
+                
         try{
        
          String nome = request.getParameter("NomeDoProduto");
-         //String status = request.getParameter("status");
+         String status = request.getParameter("status");
          String preco = request.getParameter("perco");
          String quantidade = request.getParameter("estoque");
          String marca = request.getParameter("marca");
@@ -47,15 +50,9 @@ public class CadPoduto extends HttpServlet {
          novoProduto.setQuantidadeEstoque(parseInt(quantidade));
          novoProduto.setMarcaModelo(marca);
          novoProduto.setCategoria(categoria);
-         
-        /* if(status == "True"){
-             novoProduto.setStatus(true);
-         }else
-             novoProduto.setStatus(false);
-         */
+         novoProduto.setStatus(status);
+      
          if (nome != null && preco != null && quantidade != null && marca != null && categoria != null){
-                EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
-		EntityManager manager = factory.createEntityManager();
                 
                 manager.getTransaction().begin();								
 		manager.persist(novoProduto);
@@ -64,8 +61,6 @@ public class CadPoduto extends HttpServlet {
             } 
          
         }catch(NullPointerException e){
-            EntityManagerFactory factory = Persistence.createEntityManagerFactory("ecomerce");
-            EntityManager manager = factory.createEntityManager();
             
             if(manager.getTransaction().isActive())
                manager.getTransaction().rollback();
