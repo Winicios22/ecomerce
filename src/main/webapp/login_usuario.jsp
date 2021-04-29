@@ -19,11 +19,11 @@
       
     <div id="login-container">
         <h1>Login</h1>
-            <form action="">
+            <form action="Login" method="POST">
               <label for="email">E-mail</label>
-              <input type="email" name="email-use" id="email-use" placeholder="Digite seu e-mail" autocomplete="off">
+              <input type="email" name="email" id="email-use" placeholder="Digite seu e-mail" autocomplete="off">
               <label for="password">Senha</label>
-              <input type="password" name="password-use" id="password-use" placeholder="Digite sua senha">
+              <input type="password" name="senha" id="password-use" placeholder="Digite sua senha">
               <input type="submit" value="Login">
             </form>
         <div id="register-container">
