@@ -24,13 +24,29 @@ public class Usuario implements Serializable {
     private Long id;
     private String email;
     private String contato;
-    private float cpf;
+    private String cpf;
     private String nome;
     private String sobrenome;
     private String endereco;
-    private String numeroDaCasa;
+    private int numeroDaCasa;
     private String senha;
     private String comfirmarSenha;
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public int getNumeroDaCasa() {
+        return numeroDaCasa;
+    }
+
+    public void setNumeroDaCasa(int numeroDaCasa) {
+        this.numeroDaCasa = numeroDaCasa;
+    }
 
     public Long getId() {
         return id;
@@ -56,14 +72,6 @@ public class Usuario implements Serializable {
         this.contato = contato;
     }
 
-    public float getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(float cpf) {
-        this.cpf = cpf;
-    }
-
     public String getNome() {
         return nome;
     }
@@ -86,14 +94,6 @@ public class Usuario implements Serializable {
 
     public void setEndereco(String endereco) {
         this.endereco = endereco;
-    }
-
-    public String getNumeroDaCasa() {
-        return numeroDaCasa;
-    }
-
-    public void setNumeroDaCasa(String numeroDaCasa) {
-        this.numeroDaCasa = numeroDaCasa;
     }
 
     public String getSenha() {

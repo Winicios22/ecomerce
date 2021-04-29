@@ -6,6 +6,7 @@
 package servlets;
 
 import java.io.IOException;
+import static java.lang.Integer.parseInt;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -53,11 +54,11 @@ public class CadastroUsuario extends HttpServlet {
             Usuario cliente = new Usuario();
             cliente.setNome(nome);
             cliente.setEmail(email);
-            cliente.setCpf(Float.parseFloat(cpf));
+            cliente.setCpf(cpf);
             cliente.setContato(contato);
             cliente.setSobrenome(sobrenome);
             cliente.setEndereco(endereco);
-            cliente.setNumeroDaCasa(numeroDaCasa);
+            cliente.setNumeroDaCasa(parseInt(numeroDaCasa));
             cliente.setSenha(senha);
             cliente.setComfirmarSenha(comfirmarSenha);
             
