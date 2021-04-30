@@ -78,9 +78,9 @@
             </div>
 
             <div class="half-box">
-                <input type="submit" value="salvar" name="salvar" />
-                <input type="submit" id="bnt-submit" value="Checar campos"> 
-                <input type="reset" value="Limpar"/>
+                <input type="submit" value="Registrar" name="Registrar dados" >
+
+                <input type="reset" value="Limpar campos" name="Registrar dados"   >
             </div>
         </form>
         <div id="register-container">
