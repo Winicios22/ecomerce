@@ -1,4 +1,5 @@
 models\Produto_.class
+servlets\CadAdm.class
 models\Usuario_.class
 models\Produto.class
 servlets\CriaTabelas.class

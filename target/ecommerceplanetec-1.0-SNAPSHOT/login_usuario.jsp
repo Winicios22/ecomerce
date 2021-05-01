@@ -29,7 +29,7 @@
         <div id="register-container">
             <p>Ainda não tem uma conta?</p>
             <a href="cadastro_usuario.jsp">Registre-se Agora  </a> <br>
-            <a href="adminpage.jsp">È Administrador(a)  </a>
+            <a href="loginAdm.jsp">È Administrador(a)  </a>
         </div>
     </div>
 </body>
