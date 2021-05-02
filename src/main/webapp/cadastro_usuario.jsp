@@ -33,47 +33,47 @@
         <form action="CadastroUsuario" method="POST" id="castro-use">
             <div class="full-box">
                 <label for="email-use">E-mail</label>
-                <input type="email" name="email_usuario" id="email-use" placeholder="Digite seu e-mail" data-required data-email-validate>
+                <input type="email" name="email_usuario" id="email-use" placeholder="Digite seu e-mail"  data-email-validate required permission = off> 
             </div>
 
             <div class="half-box spacing">
                 <label for="contato-use">Contato</label>
-                <input type="number" name="contato_usuario" id="contato-use" placeholder="Número para contato" data-min-length="11" data-max-length="11" data-required>
+                <input type="number" name="contato_usuario" id="contato-use" placeholder="Número para contato" data-min-length="11" data-max-length="11" required permission = off/>
             </div>
 
             <div class="half-box">
                 <label for="cpf">CPF</label>
-                <input type="text" name="cpf_usuario" id="cpf-use" placeholder="Digite seu CPF" data-min-length="11" data-max-length="11" data-required>
+                <input type="text" name="cpf_usuario" id="cpf-use" placeholder="Digite seu CPF" data-min-length="11" data-max-length="11" required permission = off/>
             </div>
 
             <div class="half-box spacing">
                 <label for="name-use">Nome</label>
-                <input type="text" name="nome_usuario" id="name-use" placeholder="Digite o seu nome" data-required>
+                <input type="text" name="nome_usuario" id="name-use" placeholder="Digite o seu nome" required permission = off>
             </div>
 
             <div class="half-box">
                 <label for="lastename-use">Sobrenome</label>
-                <input type="text" name="sobrenome_usuario" id="lastename-use" placeholder="Digite o seu sobrenome" data-required>
+                <input type="text" name="sobrenome_usuario" id="lastename-use" placeholder="Digite o seu sobrenome" required permission = off/>
             </div>
 
             <div class="half-box spacing">
                 <label for="endereco-use">Endereço</label>
-                <input type="text" name="endereco_usuario" id="endereco-use" placeholder="Digite seu endereço" data-required>
+                <input type="text" name="endereco_usuario" id="endereco-use" placeholder="Digite seu endereço" required permission = off/>
             </div>
 
             <div class="half-box">
                 <label for="n-use">Número da casa</label>
-                <input type="text" name="numero_casa_usuario" id="n-use" placeholder="Digite o número da casa" data-required>
+                <input type="text" name="numero_casa_usuario" id="n-use" placeholder="Digite o número da casa" required permission = off/>
             </div>
 
             <div class="half-box spacing">
                 <label for="password-use">Senha</label>
-                <input type="password" name="senha_usuario" id="password-use" placeholder="Digite sua senha" data-min-length="8" data-max-length="8" data-required data-password-validate>
+                <input type="password" name="senha_usuario" id="password-use" placeholder="Digite sua senha" data-min-length="8" data-max-length="8"  data-password-validate required permission = off/> 
             </div>
 
             <div class="half-box">
                 <label for="passconfirmatio-use">Confirme sua senha</label>
-                <input type="password" name="senha_usuario_repeti" id="passconfirmatio-use" placeholder="Confirme sua senha" data-equal="password-use" data-required>
+                <input type="password" name="senha_usuario_repeti" id="passconfirmatio-use" placeholder="Confirme sua senha" data-equal="password-use" required permission = off/>
                 
             </div>
 

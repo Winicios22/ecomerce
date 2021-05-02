@@ -21,22 +21,22 @@
                 <h1> Àrea De Cadastrar Seus Produtos </h1>
               <form action="CadPoduto" method="POST">
                   <label class="txt">Digite o Nome do Produro:</label>
-                  <input class="textfield" type="text" name="NomeDoProduto" value="" />
+                  <input class="textfield" type="text" name="NomeDoProduto" required permission = off />
                   <br>
                   <label class="txt">Digite o Status:</label>
-                  <input class="textfield" type="text" name="status" value="" />
+                  <input class="textfield" type="text" name="status" required permission = off />
                   <br>
                    <label class="txt">Digite o Preço:</label>
-                  <input  class="textfield" type="text" name="perco" value="" />
+                  <input  class="textfield" type="text" name="perco" required permission = off />
                   <br>
                   <label class="txt">Digite o Estoque:</label>
-                  <input class="textfield" type="text" name="estoque" value="" />
+                  <input class="textfield" type="text" name="estoque" required permission = off />
                   <br>
                    <label class="txt">Digite a Marca ou Modelo:</label>
-                  <input  class="textfield" type="text" name="marca" value="" />
+                   <input  class="textfield" type="text" name="marca" required permission = off/>
                   <br>
                   <label class="txt">Digite a Categoria:</label>
-                  <input class="textfield" type="text" name="categoria" value="" />
+                  <input class="textfield" type="text" name="categoria" required permission = off/>
                   <br>
                   <input  id="button-register"  type="submit" value=">>Registar cadastro<<" />
               </form>
