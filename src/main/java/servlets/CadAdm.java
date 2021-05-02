@@ -35,12 +35,13 @@ public class CadAdm extends HttpServlet {
         String email = request.getParameter("email");
         String senha = request.getParameter("senha");
         
-        if((email == null ? emailPadrao != null : !email.equals(emailPadrao)) && senha != senhaPadrao){  
+        if(email.equals(emailPadrao) && senha.equals(senhaPadrao)){  
+             response.sendRedirect("adminpage.jsp");
+            System.out.println("senha correta");
+            
+        }else{
             response.sendRedirect("loginAdm.jsp");
             System.out.println("senha errada");
-        }else{
-            response.sendRedirect("adminpage.jsp");
-            System.out.println("senha correta");
         
         }
        

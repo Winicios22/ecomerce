@@ -1,6 +1,8 @@
 #body{
-      background-image: url("https://www.doutorecommerce.com.br/wp-content/uploads/2019/01/personalidade-loja-virtual-instagram.jpg");
-      background-size: 1500px;
+        background-image: url("https://www.doutorecommerce.com.br/wp-content/uploads/2019/01/personalidade-loja-virtual-instagram.jpg");
+        background-repeat: no-repeat;
+        background-size: 2300px;
+       
   }
 
   #footer{

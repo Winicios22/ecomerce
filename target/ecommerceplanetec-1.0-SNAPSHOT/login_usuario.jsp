@@ -21,15 +21,15 @@
         <h1>Login</h1>
             <form action="Login" method="POST">
               <label for="email">E-mail</label>
-              <input type="email" name="email" id="email-use" placeholder="Digite seu e-mail" autocomplete="off">
+              <input type="email" name="email" id="email-use" placeholder="Digite seu e-mail" autocomplete="off" required permission = off/>
               <label for="password">Senha</label>
-              <input type="password" name="senha" id="password-use" placeholder="Digite sua senha">
+              <input type="password" name="senha" id="password-use" placeholder="Digite sua senha" required permission = off/>
               <input type="submit" value="Login">
             </form>
         <div id="register-container">
             <p>Ainda não tem uma conta?</p>
-            <a href="cadastro_usuario.jsp">Registre-se Agora  </a> <br>
-            <a href="loginAdm.jsp">È Administrador(a)  </a>
+            <a href="cadastro_usuario.jsp" style="font-size:23px;">REGISTRE-SE</a> <br>
+            <a href="loginAdm.jsp" style="font-size: 23px;"> FAZER LOGIN </a> <br>
         </div>
     </div>
 </body>
