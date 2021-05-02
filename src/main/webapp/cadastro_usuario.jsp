@@ -16,18 +16,9 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="css/cadastro-use.css">
 </head>
-<body id="body_cad_usuario">
-    
-    
-    
-    
+<body id="body"> 
     <a style="font-size: 20px;" class="nav-link active" aria-current="page" href="index.jsp">Voltar Para o Inicio</a>
                
-      
-
-    
-    
-    
     <div id="main-container">
         <h1>Cadastre-se</h1>
         <form action="CadastroUsuario" method="POST" id="castro-use">
@@ -85,7 +76,7 @@
         </form>
         <div id="register-container">
             <p>Já tem conta?</p>
-            <a href="login_usuario.jsp">Login</a>
+            <a href="login_usuario.jsp" style="font-size: 23px;">FAZER LOGIN</a>
           </div>
     </div>
     <p class="error-validation template"></p>

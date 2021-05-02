@@ -28,8 +28,8 @@
             </form>
         <div id="register-container">
             <p>Ainda não tem uma conta?</p>
-            <a href="cadastro_usuario.jsp">Registre-se Agora  </a> <br>
-            <a href="loginAdm.jsp">È Administrador(a)  </a>
+            <a href="cadastro_usuario.jsp" style="font-size:23px;">REGISTRE-SE</a> <br>
+            <a href="loginAdm.jsp" style="font-size: 23px;"> FAZER LOGIN </a> <br>
         </div>
     </div>
 </body>
