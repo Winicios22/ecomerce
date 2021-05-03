@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.*;
 
 /**
  *
@@ -39,9 +40,13 @@ public class CadAdm extends HttpServlet {
              response.sendRedirect("adminpage.jsp");
             System.out.println("senha correta");
             
+            
         }else{
-            response.sendRedirect("loginAdm.jsp");
-            System.out.println("senha errada");
+           // response.sendRedirect("loginAdm.jsp");
+            response.sendRedirect("respostaNegativa.jsp");
+            System.out.println("senha incorreta!!!!");
+             
+            
         
         }
        

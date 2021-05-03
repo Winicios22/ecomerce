@@ -40,8 +40,6 @@
                   <br>
                   <input  id="button-register"  type="submit" value=">>Registar cadastro<<" />
               </form>
-            
-                
             <!-------------------end------------------------>
     </body>
 </html>
