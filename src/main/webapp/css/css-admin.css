@@ -1,0 +1,215 @@
+*{
+ margin:0;
+ padding:0; 
+ box-sizing: border-box; 
+ -webkit-box-sizing: border-box; 
+ -moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+ -ms-box-sizing: border-box;
+}
+
+body{
+ font-size: 12px;
+ font-family: arial, Arial, Helvetica, sans-serif;
+ background: url(../img/icones/fundo-pagina-admin.jpg);
+}
+
+input,select,textarea{
+padding: 8px;
+max-width: 100%;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #888;
+}
+
+.limpar{
+    clear:both;
+}
+
+.conteudo{
+
+    width: 960px;
+    position: relative;
+    margin-left: -480px;
+    left: 50%;
+   
+
+}
+
+.topo{
+    background: blue;
+    height: 110px;
+    padding: 20px;
+}
+
+.topo form{
+    width: 260px;
+    float:right;
+    position:relative;
+
+}
+
+.topo form input{
+    border: none;
+    width: 100%;
+    
+    }
+
+.topo .but{
+    width: 60px;
+    background: #c3c1bf url(../img/icones/lupa-icon.png) center no-repeat;
+    position:absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.topo h1{
+color:#fff ;
+font-size:1.7em;
+float: left;
+margin-left: 20px;
+}
+
+
+
+.menu{
+    background: #fff;
+    width: 230px;
+    float: left;
+    border:solid 1px #DDD;
+    margin-right: 1.3%;
+    margin-left: 8px;
+     
+    
+}
+
+.inicio{
+    background: url(../img/icones/icones/home-icon.png) no-repeat;
+    background-position: 5px;
+}
+
+.novo{
+    background: url(../img/icones/create-icon.png) no-repeat;
+    background-position: 5px;
+}
+
+.alterar{
+    background: url(../img/icones/alterar-icom.png) no-repeat;
+    background-position: 5px;
+}
+
+.excluir{
+    background: url(../img/icones/delete-icon.png) no-repeat;
+    background-position: 5px;
+}
+
+.listar{
+    background: url(../img/icones/lista-icon.png) no-repeat;
+    background-position: 5px;
+}
+
+
+.menu h2{
+    color: #fff;
+    display: block;
+    background: blue;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight:bold;
+    text-align: center;
+
+}
+
+.menu ul{
+    height: auto;
+}
+
+.menu ul li{
+    border-bottom: solid 1px #DDD;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.menu ul li a{
+display: block;
+padding: 10px 49px;
+font-size: 13px;
+color: #888;
+font-weight: bold;
+
+}
+
+
+.centro{
+    background: #FFF;
+    width:700px;
+    float:left;
+    border:solid 1px #DDD;
+    padding: 10px;
+    margin-right: 8px;
+}
+
+.centro h1{
+    color: #A40000;
+    border-bottom: solid 1px #DDD;
+    padding:  0 10px 0 0;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.cadProdutos{
+ width: 100%;  
+}
+
+.cadProdutos form{
+    margin-top: 30px;
+}
+
+.cadProdutos label{
+  display:block; 
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.cadProdutos .but{
+  width: 150px;
+  background: #004C66;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+ 
+}
+
+.cadProdutos .but:hover{
+    background: #004095;
+}
+
+.rodape{
+    background: blue;
+    height: 95px;
+    border-top: solid 8px #2F0c00;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.rodape p{
+  padding-top: 30px;
+  font-size: 12px;  
+}
+
+
+   

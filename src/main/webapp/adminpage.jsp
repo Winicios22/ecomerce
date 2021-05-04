@@ -1,7 +1,7 @@
 <%-- 
-    Document   : adminpage
-    Created on : 23/04/2021, 01:23:59
-    Author     : Ailton_Oliver
+    Document   : Admin
+    Created on : 03/05/2021, 15:16:29
+    Author     : Oliver
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,37 +9,53 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/Pagina_admin.css">
-        <title>Página cadastro do Admin</title>
-        
+    <title>Admin</title>
+    <link rel="stylesheet" href="css/css-admin.css">
+
     </head>
+
     <body>
+
+      <div class="conteudo">
+          <div class="topo">
+              <a href="" class="logo"></a>
+              <h1>Pagina admin</h1>
+                <form action="">
+                    <input type="text" name="txt_valor" id="txt_valo" placeholder="pesquisa">
+              
+                    <input type="button" class="but">
+                </form>
+
+          </div>
+
+          <div class="menu">
+              <h2>Menu</h2>
+              <ul>
+                  <li> <a href=""  class="inicio">Inicio</a></li>
+                  <li> <a href="" class="novo">Novo</a></li>
+                  <li> <a href="" class="alterar">Alterar</a></li>
+                  <li> <a href="" class="excluir">Excluir</a></li>
+                  <li> <a href="" class="listar">Listar</a></li>
+              </ul>
+          </div>
+
+          <div class="centro">
+              
+              <jsp:include page="cadastro_produtos.jsp"/>
+              
+          </div>
+          
+             
         
-            <!--------Start de Cadastro de Adim-------->
-             <%--Formulario Dadastro--%>
-            <div id="ConteinerCadastroProduto">  
-                <h1> Àrea De Cadastrar Seus Produtos </h1>
-              <form action="CadPoduto" method="POST">
-                  <label class="txt">Digite o Nome do Produro:</label>
-                  <input class="textfield" type="text" name="NomeDoProduto" required permission = off />
-                  <br>
-                  <label class="txt">Digite o Status:</label>
-                  <input class="textfield" type="text" name="status" required permission = off />
-                  <br>
-                   <label class="txt">Digite o Preço:</label>
-                  <input  class="textfield" type="text" name="perco" required permission = off />
-                  <br>
-                  <label class="txt">Digite o Estoque:</label>
-                  <input class="textfield" type="text" name="estoque" required permission = off />
-                  <br>
-                   <label class="txt">Digite a Marca ou Modelo:</label>
-                   <input  class="textfield" type="text" name="marca" required permission = off/>
-                  <br>
-                  <label class="txt">Digite a Categoria:</label>
-                  <input class="textfield" type="text" name="categoria" required permission = off/>
-                  <br>
-                  <input  id="button-register"  type="submit" value=">>Registar cadastro<<" />
-              </form>
-            <!-------------------end------------------------>
+          </div>
+          <div class="limpar"></div>
+          <div class="rodape">
+              <p>copyright © 2020 - Planetec</p>
+          </div>
+
+      </div>
+    
     </body>
+
 </html>
+

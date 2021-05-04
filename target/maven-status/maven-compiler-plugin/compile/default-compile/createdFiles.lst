@@ -2,6 +2,7 @@ models\Produto_.class
 servlets\CadAdm.class
 models\Usuario_.class
 models\Produto.class
+TESTE2.class
 servlets\CriaTabelas.class
 servlets\Login.class
 models\Usuario.class
