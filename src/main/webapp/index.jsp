@@ -89,6 +89,7 @@
 
 <div class="card text-end" style="width: 18rem;">
   <div class="card-body">
+      <a href="js/teste.jsp">OK</a>
     <h5 class="card-title">Setor de TI é o que mais cresce em demanda por profissionais durante a pandemia </h5>
     <p class="card-text">As grandes, médias, pequenas e microempresas vivem atualmente uma nova realidade diante da pandemia da Covid-19. Com o isolamento social e as outras orientações da Organização Mundial da Saúde (OMS), milhões de colaboradores tiveram que trabalhar de suas próprias residências. </p>
     <a href="https://www.diariodepernambuco.com.br/noticia/economia/2020/10/setor-de-ti-e-o-que-mais-cresce-em-demanda-por-profissionais-durante-a.html" class="btn btn-primary">Ir para notícia</a>

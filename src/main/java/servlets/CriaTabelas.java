@@ -21,7 +21,7 @@ public class CriaTabelas extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("ecomerce");
-      
+        
     }
     
     @Override
